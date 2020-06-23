@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.flex-container {
+    background-color: #677DB7;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn {
+    font-size: 14px;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 0; 
+    cursor: pointer;
+    background-color: rgb(41, 58, 106);
+    border: 0;
+    color: white;
+}
+
+#counter{
+    font-size: 100px;
+    color: white;
+
+}
