@@ -22,15 +22,14 @@ body {
     font-size: 14px;
     width: 50px;
     height: 30px;
-    margin-bottom: 0; 
+    margin-bottom: 0;
     cursor: pointer;
     background-color: rgb(41, 58, 106);
     border: 0;
     color: white;
 }
 
-#counter{
+#counter {
     font-size: 100px;
     color: white;
-
 }

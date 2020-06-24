@@ -1,5 +1,5 @@
 let currentNumber = document.getElementById("counter").innerHTML;
-const colorOptions = ["#8B0000", "#32CD32", "#FFFF00"]; 
+const colorOptions = ["#8B0000", "#32CD32", "#FFFF00"];
 
 document.getElementById("btnMin").addEventListener("click", function () {
     currentNumber--;
@@ -17,13 +17,13 @@ document.getElementById("btnPlus").addEventListener("click", function () {
     document.getElementById("counter").innerHTML = currentNumber;
 });
 
-function generateRandomNumber(){
+function generateRandomNumber() {
     let min = 5;
     let max = 10;
 
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
-function getRandomColor(){
+function getRandomColor() {
     return colorOptions[Math.floor(Math.random() * colorOptions.length)];
 }
