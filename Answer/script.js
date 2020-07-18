@@ -6,10 +6,8 @@ document.getElementById("btnMin").addEventListener("click", function () {
     if (currentNumber <= -1) {
         currentNumber = generateRandomNumber();
         document.getElementById("counter").style.color = getRandomColor();
-        document.getElementById("counter").innerHTML = currentNumber;
-    } else {
-        document.getElementById("counter").innerHTML = currentNumber;
     }
+    document.getElementById("counter").innerHTML = currentNumber;
 });
 
 document.getElementById("btnPlus").addEventListener("click", function () {
